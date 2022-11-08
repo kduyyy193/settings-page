@@ -1,0 +1,73 @@
+.form-settings-child {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Style select  */
+.Polaris-Label {
+  width: 33%;
+}
+
+.Polaris-Label__Text, .Polaris-TextField__Input, .Polaris-Select__Input, .Polaris-Select__Content, .Polaris-Connected__Item--focused, .Polaris-Button__Content, option {
+  font-size: 12px !important;
+}
+
+.settings-filed-font, .form-settings-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+}
+
+.settings-filed-font > div, .form-settings-color > div {
+  width: 100%;
+}
+
+.Polaris-TextField__Backdrop, .Polaris-Select__Backdrop {
+  display: none;
+}
+
+.PolarisComboboxTextField2 {
+  display: none;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+.form-settings form {
+  padding: 2rem;
+}
+
+.Polaris-FormLayout__Item:last-child {
+  text-align: center;
+}
+
+.Polaris-Button {
+  padding: 10px 58px !important;
+}
+
+.Polaris-ColorPicker {
+  position: absolute;
+  width: 242px;
+  top: 40px;
+  left: 0;
+  z-index: 999;
+}
+
+select {
+  padding: 0;
+  padding-left: 12px;
+}
+
+/* button */
+.Polaris-Button--primary {
+  background-color: #ff6300 !important;
+  font-size: 12px;
+}/*# sourceMappingURL=appsetting.css.map */
