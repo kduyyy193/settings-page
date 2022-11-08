@@ -78,7 +78,7 @@ const AppSettingsForm = () => {
   );
 
   // Text Color
-  const textColor = usePickColor({ defaultColor: "#c24141", name: "text" });
+  const textColor = usePickColor({ defaultColor: "#c24141", name: "tex1t" });
 
   // Background Color
   const backgroundColor = usePickColor({defaultColor: "#070606",name: "background"});

@@ -78,3 +78,10 @@ $primary-fontSize: 12px;
     font-size: $primary-fontSize;
   }
   
+  .modal-settings {
+    background-color: $primary-Color;
+    padding: 8px;
+    position: absolute;
+    top: 35%;
+    left: 18%;
+  }
